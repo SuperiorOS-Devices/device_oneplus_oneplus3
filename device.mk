@@ -326,7 +326,12 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
+<<<<<<< HEAD
     android.hardware.light@2.0-service.oneplus3 \
+
+# Lineage hardware
+PRODUCT_PACKAGES += \
+    vendor.lineage.touch@1.0-service.oneplus3
 
 # Media
 PRODUCT_COPY_FILES += \
