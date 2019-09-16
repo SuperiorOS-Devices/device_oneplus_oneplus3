@@ -488,6 +488,8 @@ on property:persist.vendor.radio.atfwd.start=false
 on property:vendor.radio.atfwd.start=false
     stop vendor.atfwd
 
+setprop vendor.post_boot.parsed 1
+
 # corefile limit
 on property:persist.debug.trace=1
     mkdir /data/core 0777 root root
@@ -1058,3 +1060,6 @@ service vendor.contexthub-hal-1-0 /vendor/bin/hw/android.hardware.contexthub@1.0
     user system
     group system
     disabled
+
+on property:apexd.status=ready
+    mount none /system/etc/swcodec/ld.config.txt /apex/com.android.media.swcodec/etc/ld.config.txt bind
