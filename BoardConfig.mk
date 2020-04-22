@@ -21,8 +21,6 @@
 # definition file).
 #
 
-# Inherit from oppo-common
--include device/oppo/common/BoardConfigCommon.mk
 
 PLATFORM_PATH := device/oneplus/oneplus3
 
