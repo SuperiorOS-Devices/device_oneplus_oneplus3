@@ -244,7 +244,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PROPERTY_OVERRIDES  += \
     ro.opengles.version=196610 \
-    ro.sf.lcd_density=420
+    ro.sf.lcd_density=400
 
 # Display calibration
 PRODUCT_PACKAGES += \
