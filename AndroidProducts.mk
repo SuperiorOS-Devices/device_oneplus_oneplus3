@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cesium_oneplus3.mk
+    $(LOCAL_DIR)/bootleg_oneplus3.mk
 
 COMMON_LUNCH_CHOICES := \
-    cesium_oneplus3-eng \
-    cesium_oneplus3-user \
-    cesium_oneplus3-userdebug
+    bootleg_oneplus3-eng \
+    bootleg_oneplus3-user \
+    bootleg_oneplus3-userdebug
