@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bootleg_oneplus3.mk
+    $(LOCAL_DIR)/superior_oneplus3.mk
 
 COMMON_LUNCH_CHOICES := \
-    bootleg_oneplus3-eng \
-    bootleg_oneplus3-user \
-    bootleg_oneplus3-userdebug
+    superior_oneplus3-eng \
+    superior_oneplus3-user \
+    superior_oneplus3-userdebug
