@@ -24,6 +24,7 @@ $(call inherit-product, device/oneplus/oneplus3/device.mk)
 $(call inherit-product, vendor/superior/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
+export SUPERIOR_OFFICIAL=true
 
 # Vendor security patch level
 VENDOR_SECURITY_PATCH := 2019-10-01
