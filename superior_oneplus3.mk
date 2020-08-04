@@ -42,3 +42,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 BUILD_FINGERPRINT := "OnePlus/OnePlus3/OnePlus3:9/PKQ1.181203.001/1907311932:user/release-keys"
 
 TARGET_VENDOR := oneplus
+
+# Maintainer prop
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.superior.maintainer=DINESH DLAS
