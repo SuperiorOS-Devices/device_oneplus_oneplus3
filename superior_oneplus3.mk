@@ -26,6 +26,9 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 export SUPERIOR_OFFICIAL=true
 
+# Launcher
+TARGET_LAUNCHER := oplauncher
+
 # Vendor security patch level
 VENDOR_SECURITY_PATCH := 2019-10-01
 
