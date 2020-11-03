@@ -23,6 +23,9 @@ $(call inherit-product, device/oneplus/oneplus3/device.mk)
 # Inherit some common Cesium stuff.
 $(call inherit-product, vendor/cesium/config/common_full_phone.mk)
 
+CUSTOM_BUILD_TYPE := BETA
+
+
 PRODUCT_NAME := cesium_oneplus3
 PRODUCT_DEVICE := oneplus3
 PRODUCT_BRAND := OnePlus
