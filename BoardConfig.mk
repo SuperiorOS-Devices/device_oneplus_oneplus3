@@ -203,9 +203,6 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
-# Prebuilt Recovery
-TARGET_PREBUILT_RECOVERY_RAMDISK_CPIO := recovery/superior/pb/device/oneplus/oneplus3/ramdisk-recovery.cpio
-
 # Releasetools
 TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_op3
 TARGET_RELEASETOOLS_EXTENSIONS := $(PLATFORM_PATH)
