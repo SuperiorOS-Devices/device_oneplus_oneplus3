@@ -24,6 +24,8 @@ $(call inherit-product, device/oneplus/oneplus3/device.mk)
 $(call inherit-product, vendor/superior/config/common.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_USES_FACE_UNLOCK := true
+SUPERIOR_OFFICIAL := true
 
 PRODUCT_NAME := superior_oneplus3
 PRODUCT_DEVICE := oneplus3
